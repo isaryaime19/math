@@ -1,0 +1,5 @@
+crear 3 botones, suma , resta y multiplicacion
+crear dos opciones de introduccion de datos input tipo numero, la tabla del numero y hasta donde llega 
+crear un case of + , - , *
+ciclo for i= 0 to i= numero , crear un contador y un acumulador 
+crear un boto de calcular y uno de reset

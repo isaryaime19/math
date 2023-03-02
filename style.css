@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.food {
+    width: 45%;
+    height: 55%;
+   display: flex;
+   /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin: 0px 30px; 
+   
+   
+}
+
+.food > div {
+    width: 35%;
+    height: 40%;
+    background-color: turquoise;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  font-weight: 900;
+    border: 5px solid white;    
+}
+
+div > span {
+    font-size: 80px;
+}
+
+.after{
+    background-color: aliceblue;
+    transform: translateY(15px);
+}
+
+.value{
+    width: 40%;
+    height: 50%;
+    text-align: center;   
+    border: 5px solid white;
+    border-radius: 15px; 
+}
+
+.value > h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.coins {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;    
+   margin: 20px auto; 
+    justify-content: space-between;    
+}
+
+.coins > div {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    text-align: center;    
+    background-color: #9dc5c3;
+    background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+}
+
+
+
+.food, .coins :hover {
+    cursor: pointer;        
+}
+
+.msgscreen {
+    width: 50%;
+    height: 100px;
+    margin: 20px auto;     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.msgscreen > div {
+    width: 45px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;    
+    background-color: yellow;
+}
+
+#message {
+    width: 50%;
+    height: 80px;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;    
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+#sum{
+    background-color: lightgreen;
+    width: 50%;
+    height: 40px;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+   margin: 25px auto;    
+}
+
